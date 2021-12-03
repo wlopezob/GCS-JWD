@@ -3,7 +3,7 @@
 <title> Auttencation Broker </title>
 </head>
 <body>
-<H2> Prueba de concepto - Authentication Broker </H2>
+<H2> Prueba de concepto - Authentication Broker - Prueba 1 </H2>
 <label>* requiere activar CURL en php</label><br><br>
 <table>
 <FORM action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
@@ -42,6 +42,8 @@ OPTIONAL POSTDATA: <br />
 </form>
 </table>
 <?php
+
+
 
 function get_url_contents($url,$fuser,$username,$fpass,$password,$pdata)
 {
